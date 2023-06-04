@@ -1,0 +1,120 @@
+body {
+  background-image: url(https://correiopaulista.com/wp-content/uploads/2020/09/julio-cocielo-desculpas.jpg);
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.pageHeader {
+  border: 3px solid black;
+  position: fixed;
+  right: 10px;
+  left: 10px;
+  font-family: "Rubik", sans-serif;
+
+  margin-bottom: 10px;
+}
+header {
+  min-height: auto;
+  background-image: linear-gradient(
+    90deg,
+    #1aa15700,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa157,
+    #1aa15700
+  );
+  font-family: inherit;
+  font-size: 45px;
+  text-align: center;
+}
+.page {
+  display: block;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  top: 80px;
+}
+.menuInicio {
+  border: 3px solid black;
+  width: 510px;
+  position: relative;
+  top: 330px;
+  left: 50%;
+  right: 50%;
+  margin-left: -260px;
+
+  background-color: rgb(245, 245, 220);
+
+  text-align: center;
+}
+.advPalavra {
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+#wordInput {
+  min-width: 300px;
+  height: 26px;
+}
+button#comecoButton {
+  position: relative;
+  top: 2px;
+  min-width: 130px;
+  margin-bottom: 10px;
+}
+button {
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  min-width: fit-content;
+  min-height: 30px;
+  background: linear-gradient(90deg, blue, green, yellow, orange, red);
+}
+.page2 {
+  display: none;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  top: 80px;
+}
+.menuJogo {
+  border: 3px solid black;
+  width: 1000px;
+  height: 870px;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  margin-left: -510px;
+  margin-top: -440px;
+
+  background-color: rgb(245, 245, 220);
+
+  text-align: center;
+}
+#word {
+  font-size: 30px;
+}
+#remaining {
+  font-weight: bold;
+}
+#guessInput {
+  min-width: 300px;
+  height: 26px;
+}
+button#returnButton {
+  margin-top: 15px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O jogo da forca</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="Hangerman.js"></script>
+  </head>
+  <body>
+    <div class="pageHeader">
+      <header><b>EL JUEGO DE LA HORCA</b></header>
+    </div>
+    <div class="page" id="setWord">
+      <div class="menuInicio">
+        <p for="wordInput" class="advPalavra">
+          Coloque a palavra secreta aqui:
+        </p>
+        <br />
+        <input type="text" id="wordInput" placeholder="A palavra aqui" /> <br />
+        <button id="comecoButton">Começar</button>
+      </div>
+    </div>
+    <div class="page2" id="oJogo">
+      <div class="menuJogo">
+        <p>Advinhe a palavra:</p>
+        <img id="forcaImg" src="imagens/HangerWithStickmanStart.png" />
+        <p id="word"></p>
+        <p>Changes restantes:<span id="remaining"></span></p>
+        <input type="text" id="guessInput" />
+        <button id="guessButton">Checar letra</button> <br />
+        <button id="returnButton">Voltar</button>
+      </div>
+    </div>
+  </body>
+</html>
